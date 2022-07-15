@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dices</title>
+</head>
+<style>
+    body {
+        background-color: #fafafa;
+    }
+    #player1,#player2 {
+        width: 200px;
+        height: 150px;
+        margin: 20px;
+        border: 1px solid #c3c3c3;
+        border-radius: 20px;
+        text-align: center;
+        display: inline-block;
+        background-color: white;
+        box-shadow: 5px 10px 10px rgba(197, 197, 197, 0.2);
+        position: relative;
+    }
+    .myButton {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #2d3436;
+        font-weight: bolder;
+        margin: 25px;
+        padding: 10px 0;
+        width: 450px;
+        height: 40px;
+        text-align: center;
+        border: 1px solid #636e72;
+        border-radius: 10px;
+        box-shadow: 4px 4px #636e72;
+        
+    }
+    .output {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 200px;
+        color:#7158e2;
+    }
+    .names {
+        width: 200px;
+        margin-left:30px;
+        display: inline-block;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #636e72;
+    }
+    .dice {
+        position: absolute;
+        font-size: 150px;
+        top: -105%;
+        left: 20%;
+        color:#4b4b4b;
+    }
+    
+</style>
+<body>
+<h1 class="output"></h1>
+<div id="player1"></div>
+<div id="player2"></div>
+<div class="names">CPU</div>
+<div class="names">Player</div>
+<button type="button" class="myButton">click here</button>
+
+<script src="assets/js/js.js"></script>
+</body>
+</html>
